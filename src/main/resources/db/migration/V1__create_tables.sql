@@ -1,9 +1,5 @@
 USE Points;
 
-DROP TABLE IF EXISTS Points.temporary_points;
-DROP TABLE IF EXISTS Points.transaction;
-DROP TABLE IF EXISTS Points.points;
-
 CREATE TABLE points
 (
   user_id BINARY(16) NOT NULL,
